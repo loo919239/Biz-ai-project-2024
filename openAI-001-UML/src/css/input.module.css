@@ -1,0 +1,29 @@
+.from {
+  width: 60%;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.from input,
+.from select,
+.from textarea,
+.from button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.diagram option {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+}
+
+.diagram option[value="none"] {
+  color: blue;
+}
